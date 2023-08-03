@@ -1,6 +1,9 @@
 # React + TypeScript + Vite + Theme Toggler (localStorage)
 
+![preview](https://cdn.discordapp.com/attachments/650681889308278785/1136480044282302534/preview.jpg)
+
 ## React + TypeScript + Vite minimal template with theme switcher Works with `.css`, `.scss`, `.js` and `.ts`
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
