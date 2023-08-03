@@ -63,7 +63,7 @@ button:focus-visible {
 }
 
 code {
-  background: #2c2c2c;
-  border-radius: 15px;
+  background: color-mix(in srgb,var(--body-bg),#000 15%);
+  border-radius: 7px;
   padding: 5px;
 }
