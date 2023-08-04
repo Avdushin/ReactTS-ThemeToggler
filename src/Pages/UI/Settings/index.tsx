@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
-import DarkMode from "../../../Components/Share/DarkMode/DarkMode";
+import RadioToggler from "../../../Components/Share/DarkMode/RadioToggler/RadioToggler";
+import CheckBoxToggler from "../../../Components/Share/DarkMode/CheckBoxToggler/CheckBoxToggler";
 
 const Settings = () => {
   return (
     <>
-      <DarkMode />
-      <h1>Settings</h1>
+      <div className="togglers-box">
+        <CheckBoxToggler />
+        <RadioToggler />
+      </div>
+      <h1 className="title">Settings</h1>
       <Link to="/">Home</Link>
     </>
   );
