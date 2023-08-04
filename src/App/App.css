@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -16,6 +19,14 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.togglers-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  gap: 20px;
+  text-align: center;
 }
 
 @keyframes logo-spin {

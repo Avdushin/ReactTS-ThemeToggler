@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import DarkMode from "../../../Components/Share/DarkMode/DarkMode";
-import './main.scss'
+import "./main.scss";
+import RadioToggler from "../../../Components/Share/DarkMode/RadioToggler/RadioToggler";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
+import CheckBoxToggler from "../../../Components/Share/DarkMode/CheckBoxToggler/CheckBoxToggler";
 
 const Main = () => {
   return (
@@ -14,9 +15,13 @@ const Main = () => {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <h1>Vite + React <br />Theme Controls Templates</h1>
       </div>
-      <DarkMode />
-      <h1>Main Page</h1>
+      <div className="togglers-box">
+        <CheckBoxToggler />
+        <RadioToggler />
+      </div>
+      <h2>Main Page</h2>
       <Link to="/settings">Settings</Link>
       <p>
         This app working with <code>.css</code>, <code>.scss</code>,{" "}
